@@ -145,6 +145,7 @@ task-manager/
 │   │   ├── __pycache__/
 │   │   ├── routers/
 │   │   │   └── tasks.py
+|   |   |   └── users.py
 │   │   ├── auth.py
 │   │   ├── config.py
 │   │   ├── database.py
