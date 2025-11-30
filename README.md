@@ -132,7 +132,7 @@ Users can only access **their own tasks**, while admins get an extended view.
 ### 🛡 **Admin Endpoints**
 | Method | Endpoint          | Description             |
 |--------|--------------------|-------------------------|
-| GET    | `/admin/tasks`     | View all users' tasks   |
+| GET    | `/tasks/admin/all`     | View all users' tasks   |
 
 
 ## 📁 Project Structure
