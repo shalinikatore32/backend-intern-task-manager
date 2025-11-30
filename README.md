@@ -108,6 +108,32 @@ Users can only access **their own tasks**, while admins get an extended view.
 
 ---
 
+## 🔗 API Summary
+
+### 🔐 **Auth Endpoints**
+| Method | Endpoint        | Description             |
+|--------|------------------|-------------------------|
+| POST   | `/auth/register` | Register a new user     |
+| POST   | `/auth/login`    | Login & receive JWT     |
+| GET    | `/auth/me`       | Get logged-in user data |
+
+---
+
+### ✅ **User Task Endpoints**
+| Method | Endpoint         | Description             |
+|--------|-------------------|-------------------------|
+| GET    | `/tasks`          | Get all user tasks      |
+| POST   | `/tasks`          | Create a new task       |
+| PUT    | `/tasks/{id}`     | Update a task           |
+| DELETE | `/tasks/{id}`     | Delete a task           |
+
+---
+
+### 🛡 **Admin Endpoints**
+| Method | Endpoint          | Description             |
+|--------|--------------------|-------------------------|
+| GET    | `/admin/tasks`     | View all users' tasks   |
+
 
 ## 📁 Project Structure
 
