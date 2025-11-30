@@ -1,0 +1,98 @@
+# =========================================
+# 🎯 COMMON / GLOBAL IGNORE
+# =========================================
+
+.DS_Store
+Thumbs.db
+node_modules/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================================
+# 🟦 FRONTEND (Next.js / React)
+# =========================================
+
+# Build output
+.next/
+out/
+dist/
+build/
+
+# Production / static files
+public/.next/
+public/build/
+
+# Env files
+.env
+.env.* 
+!.env.example
+
+# Cache
+.next/
+.cache/
+.next/cache/
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# =========================================
+# 🐍 BACKEND (FastAPI / Python)
+# =========================================
+
+# Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Env files
+backend/.env
+backend/.env.* 
+!backend/.env.example
+
+# Python caches
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build & Packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Uvicorn logs
+uvicorn.log
+
+# =========================================
+# 🔧 OS-Specific
+# =========================================
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# =========================================
+# 🖼️ Project-specific
+# =========================================
+
+# Uploads / temp files (if any)
+uploads/
+temp/
